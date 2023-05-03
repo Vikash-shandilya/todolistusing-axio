@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form action="" onsubmit="event.preventDefault(),bar()">
+        <label for="name">Todoname</label>
+        <input type="text" id="name">
+        <label for="discript">tododiscription</label>
+        <input type="text" id="discript">
+
+        <button type="submit" >add</button>
+
+    </form>
+
+    <div id="tasks">
+        <h2>Tasks</h2>
+    </div>
+
+    <div id="taskdone">
+        <h2>Taskdone</h2>
+    </div>
+    
+</body>
+</html>
